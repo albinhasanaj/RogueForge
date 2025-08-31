@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Player.hpp"
 
 int main() {
-    std::cout << "Hello, RogueForge!" << std::endl;
+    Player p1("Player1");
+    std::cout << "Player initalized with: " << p1.getHealth() << " health" << std::endl;
     return 0;
 }
